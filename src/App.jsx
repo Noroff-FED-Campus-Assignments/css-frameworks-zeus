@@ -5,6 +5,9 @@ import "./index.scss";
 function App() {
   return (
     <>
+
+    
+
       <header>
         <nav>
           <ul>
@@ -20,6 +23,7 @@ function App() {
           </ul>
         </nav>
       </header>
+
       <main>
         <Outlet />
       </main>
