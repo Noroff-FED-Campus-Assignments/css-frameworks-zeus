@@ -1,3 +1,5 @@
+
+import { Helmet } from 'react-helmet';
 import bobbywebb from "../assets/bobbywebb.jpg";
 import davidharker from "../assets/davidharker.jpg";
 import hannahwebster from "../assets/hannahwebster.jpg";
@@ -6,10 +8,18 @@ import millieburton from "../assets/millieburton.jpg";
 import johnharris from "../assets/johnharris.jpg";
 import React, { useState } from "react";
 
-
 function ProfilePage() {
   return (
     <>
+      <Helmet>
+        <title>Bobby Webb - Profile</title>
+        <meta
+          name="description"
+          content="Bobby Webb's profile. Age: 32, Gender: Male, Occupation: Frontend Developer."
+        />
+        {/* You can add more meta tags as needed */}
+      </Helmet>
+
       <main className="bg-white p-4 flex flex-col min-h-screen items-center justify-center mx-auto max-w-7xl">
         <div className="flex flex-row w-full justify-start">
           <h3 className="text-2xl font-semibold text-black mb-4 tracking-wide">
