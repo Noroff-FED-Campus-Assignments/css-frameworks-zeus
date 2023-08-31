@@ -11,25 +11,21 @@ function LoginPage() {
           </h1>
           <form className="mt-6 m-auto max-w-sm">
             <div className="mb-2 py-1">
-              <label
-                htmlFor="email"
-                className="block text-sm font-semibold text-gray-800"
-              ></label>
+              
               <input
                 type="email"
                 placeholder="Username or Email"
                 className="block w-full px-4 py-2 mt-2 text-blue-500 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-opacity-40"
+                required
               />
             </div>
             <div className="mb-2 py-3">
-              <label
-                htmlFor="password"
-                className="block text-sm font-semibold text-gray-800"
-              ></label>
+              
               <input
                 type="password"
                 placeholder="Password"
                 className="block w-full px-4 py-2 mt-2 text-blue-500 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-opacity-40"
+                required
               />
             </div>
 
