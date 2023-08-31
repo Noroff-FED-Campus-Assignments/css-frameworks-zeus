@@ -1,5 +1,4 @@
-
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import bobbywebb from "../assets/bobbywebb.jpg";
 import davidharker from "../assets/davidharker.jpg";
 import hannahwebster from "../assets/hannahwebster.jpg";
@@ -15,9 +14,13 @@ function ProfilePage() {
         <title>Bobby Webb - Profile</title>
         <meta
           name="description"
-          content="Bobby Webb's profile. Age: 32, Gender: Male, Occupation: Frontend Developer."
+          content="Bobby Webb's profile page. Age: 32, Gender: Male, Occupation: Frontend Developer."
         />
-        {/* You can add more meta tags as needed */}
+        <meta
+          name="keywords"
+          content="HTML, Tailwind CSS, React, social media site,"
+        />
+        <meta name="author" content="Espen Henriksen Snerten" />
       </Helmet>
 
       <main className="bg-white p-4 flex flex-col min-h-screen items-center justify-center mx-auto max-w-7xl">
