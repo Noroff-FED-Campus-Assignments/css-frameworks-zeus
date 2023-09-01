@@ -18,9 +18,6 @@ This project was bootstrapped with Vite.
 - [Production deploy](https://social-media2.netlify.app/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
-## Deployment
-https://social-media2.netlify.app/
-
 ## Report FED2-CSS Frameworks Course Assignment
 
 ### Intro
