@@ -5,7 +5,7 @@ import PostSection from "../components/postSection";
 function HomePage() {
   return (
     <>
-<PostSection/>
+      <PostSection />
     </>
   );
 }
