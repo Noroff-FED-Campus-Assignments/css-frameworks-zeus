@@ -98,9 +98,6 @@ function PostSection() {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">New Posts</h2>  
         </div>
 
-
-
-
         <div className="mx-auto mt-1 flex flex-col max-w-2xl  gap-x-8  py-3 sm:mt-1 lg:mx-0 lg:max-w-none ">
           {posts.map((post) => (
             <article key={post.id} className="flex max-w-3xl flex-col border-y border-gray-200 items-start justify-between py-6">
