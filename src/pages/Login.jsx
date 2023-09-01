@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import ExampleLoginForm from "../components/example-login-form";
 
 function LoginPage() {
   return (
@@ -52,7 +51,6 @@ function LoginPage() {
         </div>
       </div>
 
-      <ExampleLoginForm /> 
     </>
 
   );
