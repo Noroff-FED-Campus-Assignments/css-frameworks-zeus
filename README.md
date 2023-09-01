@@ -15,7 +15,7 @@ This project was bootstrapped with Vite.
 
 - [Brief](https://fed-vocational-astro-course.vercel.app/en/css-frameworks/ca/ca)
 - [Design](https://www.figma.com/file/yRXnqBF2sY3ZUJGe0RfsuS/Css-Frameworks-CA?type=design&node-id=4%3A2&mode=design&t=2GiLNcCdIppbTa1c-1)
-- [Production deploy](_LINK_TO_WEBSITE_)
+- [Production deploy](https://social-media2.netlify.app/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
@@ -131,7 +131,7 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 - Ali (@_your_github_username_)
 - Espen (@EspenSnerten)
-- Sander (@_your_github_username_)
+- Sander (@sanderselfors)
 
 ## References
 
