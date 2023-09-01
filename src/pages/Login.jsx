@@ -1,9 +1,8 @@
-import React from "react";
-import ExampleLoginForm from "../components/example-login-form";
+import { Link } from "@tanstack/react-router";
 
 function LoginPage() {
   return (
-    <>
+    
       <div className="relative flex flex-col justify-center min-h-screen overflow-hidden p-5 ">
         <div className="w-full max-w-xl p-5 py-28 m-auto bg-white rounded-xl border-2 border-blue-500 ">
           <h1 className="text-3xl font-normal text-center text-gray-700 ">
@@ -29,10 +28,10 @@ function LoginPage() {
               />
             </div>
 
-            <div className="mt-6">
-              <button className="w-full px-4 py-2 tracking-wide rounded-3xl text-white transition-colors duration-200 transform bg-blue-500 hover:bg-blue-700 focus:outline-none focus:bg-blue-500">
+            <div className="mt-6 flex justify-center">
+              <Link to="/profile" className="w-full text-center px-4 py-2 tracking-wide rounded-3xl text-white transition-colors duration-200 transform bg-blue-500 hover:bg-blue-700 focus:outline-none focus:bg-blue-500">
                 Log in
-              </button>
+              </Link>
             </div>
             <a
               href="#"
@@ -44,15 +43,15 @@ function LoginPage() {
 
           <p className="mt-8 text-xs font-light text-center text-gray-700">
             {" "}
-            Don't have an account?{" "}
+            Don`t have an account?{" "}
             <a href="#" className="font-medium text-blue-500 hover:underline">
               Sign up
             </a>
           </p>
         </div>
       </div>
-      <ExampleLoginForm />
-    </>
+      
+    
   );
 }
 
