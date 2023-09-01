@@ -1,6 +1,6 @@
 // import {useAllPosts} from "../../lib/my-api"
 // import {fetchUser} from "../../lib/my-api"
-import UserPic from "../../assets/profPic.jpeg";
+import UserPic from "../../assets/bobbywebb.jpg";
 import { Link } from "@tanstack/react-router";
 import { useUsersPosts } from "../../lib/my-api";
 
@@ -79,7 +79,7 @@ function PostSection() {
           >
             <img
               src={UserPic}
-              className="label-text-alt  w-24 rounded-full my-2"
+              className="label-text-alt object-cover w-24 h-24 rounded-full my-2"
             />
             <Link
               to="/Profile"
