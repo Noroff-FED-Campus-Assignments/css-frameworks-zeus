@@ -1,12 +1,7 @@
-
 import { Link } from "@tanstack/react-router";
 
- 
-
 function LoginPage() {
-
   return (
-
     <>
       <div className="relative flex flex-col justify-center min-h-screen overflow-hidden p-5 ">
         <div className="w-full max-w-xl p-5 py-28 m-auto bg-white rounded-xl border-2 border-blue-500 ">
@@ -29,10 +24,12 @@ function LoginPage() {
                 className="block w-full px-4 py-2 mt-2 text-blue-500 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-opacity-40"
                 required
               />
-
             </div>
             <div className="mt-6 flex justify-center">
-              <Link to="/profile" className="w-full text-center px-4 py-2 tracking-wide rounded-3xl text-white transition-colors duration-200 transform bg-blue-500 hover:bg-blue-700 focus:outline-none focus:bg-blue-500">
+              <Link
+                to="/profile"
+                className="w-full text-center px-4 py-2 tracking-wide rounded-3xl text-white transition-colors duration-200 transform bg-blue-500 hover:bg-blue-700 focus:outline-none focus:bg-blue-500"
+              >
                 Log in
               </Link>
             </div>
@@ -55,7 +52,5 @@ function LoginPage() {
     </>
   );
 }
-
- 
 
 export default LoginPage;
