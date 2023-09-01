@@ -1,23 +1,101 @@
-import { Link } from "@tanstack/react-router";
+// import { Link } from "@tanstack/react-router";
+import {  Link } from "@tanstack/react-router";
+import { useState } from "react";
 
 function Header () {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
     return (
-        <header className="grid grid-cols-2 gap-2 text-white  bg-slate-800">
-            <div>LOGO_GOES_HERE</div>
-        <nav >
-          <ul className=" flex gap-2 ">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/profile">Profile</Link>
-            </li>
-            <li>
-              <Link to="/Login">Login</Link>
-            </li>
-          </ul>
+      <>
+
+        <nav className="bg-white border-2 border-white border-b-blue-500">
+          <div className="max-w-7xl mx-auto px-10">
+            <div className="flex justify-between items-center h-24">
+              <div className="flex-shrink-0">
+                <a href="#" className="text-2xl font-normal text-blue-500">
+                  Social Media
+                </a>
+              </div>
+
+              <div className="hidden md:flex space-x-10">
+                <Link
+                  to="/"
+                  className="text-gray-600 text-lg hover:text-blue-500"
+                  >
+                  Home
+                </Link>
+                <Link
+                  to="/profile"
+                  className="text-gray-600 text-lg hover:text-blue-500"
+                  >
+                  Profile
+                </Link>
+                <Link
+                  to="/login"
+                  className="text-gray-600 text-lg hover:text-blue-500"
+                  >
+                  Login
+                </Link>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  className="px-2 border-blue-500 border-2 rounded-3xl font-light"
+                  />
+              </div>
+
+              <div className="md:hidden">
+                <button
+                  className="text-gray-600 hover:text-blue-500"
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                  >
+                  <svg
+                    className="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                      ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </nav>
-      </header>
+        {isMobileMenuOpen && (
+          <div className="md:hidden text-center absolute  py-5 bg-white border-2 border-white border-b-blue-500 w-full z-10">
+            <Link
+              to="/"
+              className="block text-gray-600 p-2 hover:text-blue-500 "
+              >
+              Home
+            </Link>
+            <Link
+              to="/profile"
+              className="block text-gray-600 p-2 hover:text-blue-500 my-2"
+              >
+              Profile
+            </Link>
+            <Link
+              to="/login"
+              className="block text-gray-600 p-2 hover:text-blue-500 my-2"
+              >
+              Login
+            </Link>
+            <input
+              type="text"
+              placeholder="Search"
+              className="px-2 py-1 border-blue-500 border rounded-3xl"
+              />
+          </div>
+        )}
+
+        </>
     )
 }
 
