@@ -25,19 +25,28 @@ YOu can update your deployment pipeling by editing the [vercel.json](https://ver
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FS3ak%2Ffed1-exam-vanilla-frontend-website&env=API_TOKEN,API_SECRET&envDescription=The%20API_TOKEN%20is%20needed%20to%20access%20a%20secure%20API%20endpoint.%20This%20can%20be%20the%20Authorization%20%60Bearer%20Token%60%20header%20used%20to%20make%20queries.&envLink=https%3A%2F%2Fvitejs.dev%2Fguide%2Fenv-and-mode.html&project-name=exam-front-end&repository-name=fed1-exam-vanilla-frontend-website&skippable-integrations=1)
 
-## Report FED2-CSS Frameworks Course Assignment 
+## Report FED2-CSS Frameworks Course Assignment
 
 ### Intro
 
 This document will serve as our CSS frameworks CA Rapport & Rationale, throughout the document we will detail our design choices and the work process, as well as the coding choices we went with.
+
 Each team member will detail their design choice for their respective page.
-This project was the first group project all of us went through during our time studying at Noroff, we got off to a bit of a rough start being that team member Espen was sick during the first week of the module so he had a lot of catching up to do, he basically had to learn  how to implement a framework in the code base and how tailwind works in a day, the rest of the team, i.e. Sander and Ali took it upon them selves to help and guide him in this process and was of great help to him.
+This project was the first group project all of us went through during our time studying at Noroff, we got off to a bit of a rough start being that team member Espen was sick during the first week of the module so he had a lot of catching up to do, he basically had to learn how to implement a framework in the code base and how tailwind works in a day, the rest of the team, i.e. Sander and Ali took it upon them selves to help and guide him in this process and was of great help to him.
 
 We quickly settled on a design for our website, nothing to fancy, nice minimalist design with a familiar color palette that draws inspiration from known social media sites.
 
-### Login page - navn 
+### Login page - Sander Selfors
 
-### Home page - navn 
+My section of this report outlines the creation of a fictional social media site's header, footer, and login form. The chosen blue and white color scheme aligns with industry standards for clean and professional design.
+
+Beginning with the header, I applied Tailwind CSS classes to design a visually appealing and user-friendly navigation system. The footer, similarly styled with Tailwind CSS serves the design of the website nicely. The header and footer was then applied to the other pages.
+
+The central focus was the login form, meticulously crafted with HTML elements and Tailwind CSS classes to ensure both aesthetics and functionality. It was made responsive to various screen sizes for seamless user interaction.
+
+In summary, this project effectively utilized Tailwind CSS to develop a cohesive social media site. The blue and white color scheme, known for its industry relevance, was consistently applied across the header, footer and all three pages. Working with Ali and Espen enhanced the learning experience, making this assignment a valuable step in mastering Tailwind CSS and web development.
+
+### Home page - navn
 
 ### Profile page – Espen Henriksen Snerten
 
@@ -47,7 +56,7 @@ Being this was the first time I used react I went with a hard coded HTML base fo
 The design in it self is pretty simple, though I think it looks neat, there is a lot of room to expand upon the design, I will state that the images I went with was found on unsplash, it was only later when looking through the tailwind documentation i saw that a lot of the same pictures was used there, a case of good taste i guess.
 
 The coding is pretty self explanatory, it is after all a framework, being this was the first time I had touched a CSS framework I have probably made a lot of newbie errors that with I will eliminate.
-To conclude my section of the rapport, working in a team is genuinely of a great educational value being that it emulates a in real life work environment, I thoroughly enjoyed working with Ali and Sander.   
+To conclude my section of the rapport, working in a team is genuinely of a great educational value being that it emulates a in real life work environment, I thoroughly enjoyed working with Ali and Sander.
 
 ## Getting Started
 
@@ -130,7 +139,7 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 https://fonts.google.com/specimen/Poppins
 
-### Media 
+### Media
 
 https://unsplash.com/photos/sibVwORYqs0
 https://unsplash.com/photos/rDEOVtE7vOs
