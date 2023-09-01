@@ -1,12 +1,11 @@
-import ExampleUsersPosts from "../components/example-users-posts";
-import Header from "../components/header";
+// import ExampleUsersPosts from "../components/example-users-posts";
+import PostSection from "../components/postSection";
+// import Header from "../components/header";
 
 function HomePage() {
   return (
     <>
-      <Header />
-      <ExampleUsersPosts />
-      <h2>HEI</h2>
+<PostSection/>
     </>
   );
 }

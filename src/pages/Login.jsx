@@ -55,7 +55,7 @@ function LoginPage() {
           </p>
         </div>
       </div>
-      <ExampleLoginForm />
+      {/* <ExampleLoginForm /> */}
     </>
   );
 }
