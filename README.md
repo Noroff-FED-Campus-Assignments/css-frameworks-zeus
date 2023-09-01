@@ -19,11 +19,7 @@ This project was bootstrapped with Vite.
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
 
 ## Deployment
-
-Your deployment is done via static hosting provider (Vercel is recommended).
-YOu can update your deployment pipeling by editing the [vercel.json](https://vercel.com/docs/concepts/projects/project-configuration).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FS3ak%2Ffed1-exam-vanilla-frontend-website&env=API_TOKEN,API_SECRET&envDescription=The%20API_TOKEN%20is%20needed%20to%20access%20a%20secure%20API%20endpoint.%20This%20can%20be%20the%20Authorization%20%60Bearer%20Token%60%20header%20used%20to%20make%20queries.&envLink=https%3A%2F%2Fvitejs.dev%2Fguide%2Fenv-and-mode.html&project-name=exam-front-end&repository-name=fed1-exam-vanilla-frontend-website&skippable-integrations=1)
+https://social-media2.netlify.app/
 
 ## Report FED2-CSS Frameworks Course Assignment
 
@@ -46,7 +42,13 @@ The central focus was the login form, meticulously crafted with HTML elements an
 
 In summary, this project effectively utilized Tailwind CSS to develop a cohesive social media site. The blue and white color scheme, known for its industry relevance, was consistently applied across the header, footer and all three pages. Working with Ali and Espen enhanced the learning experience, making this assignment a valuable step in mastering Tailwind CSS and web development.
 
-### Home page - navn
+### Home page - Ali
+
+Home page includes a feed section, and a section where a user can write a new post. It's a very simple view, as in it is not in any way interactive. Which in retrospect might be a bit boring. But it does follow the overall simple and generaly flat design which we went for. 
+
+I wanted to use the dummy API for this and I DID get it to work, however, it was not a in my apinion an easy API to work with. Since it did not contain all the data i needed under one respons. f.e I would love it if it had time of post, author, profile pic... I believe there might have been a way to get the ID of one post and call to another API base to get the author data or more, but i'm not as of yet familiar with React. 
+
+Using Tailwind was at first a bit annoying, but I understand why it is so popular. it made it really easy to copy past a code from a library. You basically copy a single page of code containing all three of HTML, CSS and JS. But, I still prefer writing regular CSS, it's cleaner and easier to debug. 
 
 ### Profile page – Espen Henriksen Snerten
 
@@ -129,7 +131,7 @@ Make sure you go through this checklist before submitting your project to Moodle
 
 ## Authors
 
-- Ali (@_your_github_username_)
+- Ali (@AliNough)
 - Espen (@EspenSnerten)
 - Sander (@sanderselfors)
 
