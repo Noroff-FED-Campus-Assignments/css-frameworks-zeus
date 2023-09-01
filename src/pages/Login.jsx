@@ -1,8 +1,9 @@
 import { Link } from "@tanstack/react-router";
+import ExampleLoginForm from "../components/example-login-form";
 
 function LoginPage() {
   return (
-    
+    <>
       <div className="relative flex flex-col justify-center min-h-screen overflow-hidden p-5 ">
         <div className="w-full max-w-xl p-5 py-28 m-auto bg-white rounded-xl border-2 border-blue-500 ">
           <h1 className="text-3xl font-normal text-center text-gray-700 ">
@@ -50,8 +51,10 @@ function LoginPage() {
           </p>
         </div>
       </div>
-      
-    
+
+      <ExampleLoginForm /> 
+    </>
+
   );
 }
 
