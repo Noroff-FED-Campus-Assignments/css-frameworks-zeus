@@ -1,9 +1,11 @@
-import ExampleUsersPosts from "../components/example-users-posts";
+// import ExampleUsersPosts from "../components/example-users-posts";
+import PostSection from "../components/postSection";
+// import Header from "../components/header";
 
 function HomePage() {
   return (
     <>
-      <ExampleUsersPosts />
+      <PostSection />
     </>
   );
 }
