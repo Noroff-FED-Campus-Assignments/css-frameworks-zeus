@@ -71,6 +71,7 @@ function PostSection() {
   console.log(data.posts);
   return (
     <>
+    <main className="min-h-screen mt-20">
       <div className="flex form-control w-full flex-col items-center justify-center mt-3 pt-3 mx-auto  max-w-3xl px-8">
         <div className="flex  gap-y-2 max-w-16 w-full gap-2 items-center ">
           <div
@@ -148,6 +149,7 @@ function PostSection() {
           </div>
         </div>
       </div>
+      </main>
     </>
   );
 }

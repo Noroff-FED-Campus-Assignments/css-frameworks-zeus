@@ -12,7 +12,7 @@ function Header() {
           <div className="flex justify-between items-center h-24">
             <div className="flex-shrink-0">
               <a href="#" className="text-2xl font-normal text-blue-500">
-                Social Media
+              Synapse Social
               </a>
             </div>
 

@@ -1,8 +1,22 @@
 import { Link } from "@tanstack/react-router";
+import { Helmet } from "react-helmet";
 
 function LoginPage() {
   return (
     <>
+      <Helmet>
+        <title>Synapse Social - Login</title>
+        <meta
+          name="description"
+          content="Synapse Social's Login page."
+        />
+        <meta
+          name="keywords"
+          content="HTML, Tailwind CSS, React, social media site,"
+        />
+        <meta name="author" content="Sander Selfors" />
+      </Helmet>
+
       <div className="relative flex flex-col justify-center min-h-screen overflow-hidden p-5 ">
         <div className="w-full max-w-xl p-5 py-28 m-auto bg-white rounded-xl border-2 border-blue-500 ">
           <h1 className="text-3xl font-normal text-center text-gray-700 ">

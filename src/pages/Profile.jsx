@@ -1,4 +1,4 @@
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import bobbywebb from "../assets/bobbywebb.jpg";
 import davidharker from "../assets/davidharker.jpg";
 import hannahwebster from "../assets/hannahwebster.jpg";
@@ -10,7 +10,8 @@ import johnharris from "../assets/johnharris.jpg";
 function ProfilePage() {
   return (
     <>
-        <title>Bobby Webb - Profile</title>
+      <Helmet>
+        <title>Synapse Social - Bobby Webb</title>
         <meta
           name="description"
           content="Bobby Webb's profile page. Age: 32, Gender: Male, Occupation: Frontend Developer."
@@ -20,6 +21,7 @@ function ProfilePage() {
           content="HTML, Tailwind CSS, React, social media site,"
         />
         <meta name="author" content="Espen Henriksen Snerten" />
+      </Helmet>
 
 
       <main className="bg-white p-4 flex flex-col min-h-screen items-center justify-center mx-auto max-w-7xl">
@@ -39,10 +41,11 @@ function ProfilePage() {
           <div className="flex-col bg-slate-50 p-4 rounded w-full md:w-4/5 mt-4 md:mt-0 md:h-96">
             <h4 className="text-lg font-semibold">About me</h4>
             <p className="mt-4">Age: 32</p>
-            <p className="mt-4">Gender: Male</p>
-            <p className="mt-4">Occupation: Frontend Developer</p>
+            <p className="mt-2">Gender: Male</p>
+            <p className="mt-2">Occupation: Frontend Developer</p>
+            <p className="mt-2">Email: <span className="text-blue-700 hover:font-semibold duration-100 transform cursor-pointer">bobbywebb@gmail.com</span></p>
             <div className="w-full md:w-full">
-              <p className="mt-10">
+              <p className="mt-10 text-sm">
                 Hi, my name is Bobby Webb. I am a versatile individual who finds
                 his passion both in the world of technology and amidst the
                 tranquility of nature. As a seasoned Frontend Developer, I have
@@ -62,7 +65,7 @@ function ProfilePage() {
                   <img
                     src={hannahwebster}
                     alt="A picture of the woman named Hannah Webster"
-                    className="w-16 h-16 rounded-3xl object-cover"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <p className="truncate">Hannah Webster</p>
                 </div>
@@ -70,7 +73,7 @@ function ProfilePage() {
                   <img
                     src={heidiparker}
                     alt="A picture of the woman named Heidi Parker"
-                    className="w-16 h-16 rounded-3xl object-cover"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <p className="truncate">Heidi Parker</p>
                 </div>
@@ -78,7 +81,7 @@ function ProfilePage() {
                   <img
                     src={millieburton}
                     alt="A picture of the woman named Millie Burton"
-                    className="w-16 h-16 rounded-3xl object-cover"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <p className="truncate">Millie Burton</p>
                 </div>
@@ -86,7 +89,7 @@ function ProfilePage() {
                   <img
                     src={johnharris}
                     alt="A picture of the man named John Harris"
-                    className="w-16 h-16 rounded-3xl object-cover"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <p className="truncate">John Harris</p>
                 </div>
@@ -94,7 +97,7 @@ function ProfilePage() {
                   <img
                     src={davidharker}
                     alt="A picture of the man named David Harker"
-                    className="w-16 h-16 rounded-3xl object-cover"
+                    className="w-16 h-16 rounded-full object-cover"
                   />
                   <p className="truncate">David Harker</p>
                 </div>
@@ -112,7 +115,7 @@ function ProfilePage() {
                   <img
                     src={hannahwebster}
                     alt="A picture of the woman named Hannah Webster"
-                    className="w-20 h-20 rounded-3xl object-cover"
+                    className="w-20 h-20 rounded-full object-cover"
                   />
                   <h5 className="font-semibold">Hannah Webster</h5>
                 </div>
@@ -127,7 +130,7 @@ function ProfilePage() {
                   <img
                     src={bobbywebb}
                     alt="A picture of the man named Bobby Webb"
-                    className="w-20 h-20 rounded-3xl object-cover"
+                    className="w-20 h-20 rounded-full object-cover"
                   />
                   <h5 className="font-semibold">Bobby Webb</h5>
                 </div>
