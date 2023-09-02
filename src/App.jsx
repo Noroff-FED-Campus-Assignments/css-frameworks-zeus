@@ -1,31 +1,24 @@
-import { Outlet, Link } from "@tanstack/react-router";
+// import { useState } from "react";
+import { Outlet} from "@tanstack/react-router";
 import "./App.scss";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 function App() {
+  // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
     <>
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/profile">Profile</Link>
-            </li>
-            <li>
-              <Link to="/Login">Login</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <Header />
 
+    </header>
       <main>
         <Outlet />
       </main>
-
       <footer>
-        <small>Created with ❤️ by _REPLACE_</small>
+      <Footer />
+
       </footer>
     </>
   );
