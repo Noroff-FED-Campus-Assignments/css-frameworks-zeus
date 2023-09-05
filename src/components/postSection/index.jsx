@@ -56,6 +56,11 @@ const posts = [
   // More posts...
 ];
 
+/**
+ * This function iterates through an array and populates the home page.
+ * @returns HTML tags for the posts
+ * @author Ali.N.Nough <ali.n.nough@gmail.com>
+ */
 function PostSection() {
   const userId = 2;
   const { status, error, data } = useUsersPosts(userId);
@@ -115,7 +120,7 @@ function PostSection() {
             {posts.map((post) => (
               <article
                 key={post.id}
-                className="flex max-w-3xl flex-col border-y border-gray-200 items-start justify-between py-6"
+                className="flex max-w-3xl flex-col border-y border-blue-500 items-start justify-between py-6"
               >
                 <div className="text-sm leading-6">
                   <div className="relative flex items-center gap-x-3">
